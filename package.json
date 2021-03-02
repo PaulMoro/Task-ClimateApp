@@ -1,0 +1,33 @@
+{
+  "name": "climateapp",
+  "version": "1.0.0",
+  "description": "App web about climate",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/PaulMoro/Task-ClimateApp.git"
+  },
+  "keywords": [
+    "React",
+    "Next",
+    "Got",
+    "SASS"
+  ],
+  "author": "Paul Moro <paulmontoya15@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PaulMoro/Task-ClimateApp/issues"
+  },
+  "homepage": "https://github.com/PaulMoro/Task-ClimateApp#readme",
+  "dependencies": {
+    "next": "^10.0.7",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "styled-components": "^5.2.1"
+  }
+}
