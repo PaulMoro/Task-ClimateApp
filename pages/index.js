@@ -1,7 +1,24 @@
 import React from "react";
+/* compoenents */
+import Header from '../src/components/Header'
+import Future from '../src/components/Future'
+import ToVisit from '../src/components/ToVisit'
+import Cities from '../src/components/Cities'
 
-function HomePage() {
-  return <div>Welcome to Next.js!</div>
-}
+const HomePage = () => {
+  return (
+    <>
+      <div className="city">
+        <Header />
+      </div>
+      <div className="about">
+        <Future />
+        <ToVisit />
+        <Cities />
+      </div>
+    </>
 
-export default HomePage
+  
+)};
+
+export default HomePage;
