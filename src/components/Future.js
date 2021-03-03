@@ -1,5 +1,8 @@
 import React from 'react'
 
+/* styles */
+import FutureStyles from '../styles/FutureStyles'
+
 const Future = () => {
   return(
     <>
@@ -41,6 +44,9 @@ const Future = () => {
           </div>
         </div>
       </div>
+      <style jsx HeaderStyles>
+        {FutureStyles}
+      </style>
     </>
   )
 };

@@ -1,4 +1,7 @@
 import React from 'react'
+import bogota from '../../assets/img/bogota.png'
+import location from '../../assets/icons/20314.png'
+import croquis from '../../assets/img/croquis-bogota.png'
 
 /* styles */
 import HeaderStyles from '../styles/HeaderStyles'
@@ -20,13 +23,13 @@ const Header = () => {
         </div>
       </div>
       <div className="city">
-        <img src="" alt=""/>
+        <img className="city_img" src={bogota} alt="image about Bogota"/>
         <div className="city_location">
           <div className="city_location-name">
-            <img src="" alt=""/>
+            <img src={location} alt=""/>
             <h1>Bogotá</h1>
           </div>
-          <img src="" alt=""/>
+          <img className="city_location-img"src={croquis} alt=""/>
         </div>
       </div>
       <style jsx HeaderStyles>

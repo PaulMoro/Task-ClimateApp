@@ -1,11 +1,12 @@
 import css from "styled-jsx/css";
 
 export default css.HeaderStyles`
+/* Element in left with info */
 .weather{
-  border: red 1px solid;
   width: 93px;
   height: 185px;
-  margin-top: 103px;
+  position: absolute;
+  top: 103px;
   color: white;
 }
 .weather_desing-top{
@@ -64,5 +65,40 @@ export default css.HeaderStyles`
   font-size: 10px;
   margin-top: -10px;
 }
-
+/* Image header with information about city */
+.city {
+  height: 50vh;
+  margin: 45px 47px;
+/*   color: #7D68E9; */
+}
+.city_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.city_location {
+  position: fixed;
+  left: 13%;
+  top: 110px;
+}
+.city_location-name {
+  display: flex;
+}
+.city_location-name img {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  padding-right: 20px;
+}
+.city_location-name h1 {
+  font-size: 20px;
+}
+.city_location-img{
+  width: 100px;
+  height: 50px;
+  padding-top: 45px;
+  padding-left: 24px;
+  object-fit: cover;
+}
 `
