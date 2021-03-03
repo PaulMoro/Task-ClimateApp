@@ -16,9 +16,15 @@ const HomePage = () => {
         <ToVisit />
         <Cities />
       </div>
+      <style global jsx>{`
+        *{
+          margin: 0px;
+          padding: 0px;
+          font-family: Helvetica, sans-serif;
+        }
+      `}
+      </style>
     </>
-
-  
 )};
 
 export default HomePage;

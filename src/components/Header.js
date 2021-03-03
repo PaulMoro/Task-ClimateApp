@@ -7,12 +7,14 @@ import HeaderStyles from '../styles/HeaderStyles'
 const Header = () => {
   return(
     <>
-      <div className="wather">
-        <div className="wather_how">
+      <div className="weather">
+        <div className="weather_desing-top"></div>
+        <div className="weather_desing-bottom"></div>
+        <div className="weather_how">
           <img src="" alt=""/>
           <p>Cloudy</p>
         </div>
-        <div className="wather_howMuch">
+        <div className="weather_howMuch">
           <p>31</p>
           <span>°C</span>
         </div>
