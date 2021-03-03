@@ -2,7 +2,7 @@ import React from 'react'
 
 const Cities = () => {
   return(
-    <>
+    <div className="cities">
       <div className="citiesContainer">
         <div className="citiesContainer_img">
           <img src="" alt=""/>
@@ -49,7 +49,7 @@ const Cities = () => {
         <button>Add Locations</button>
         <img src="" alt=""/>
       </div>
-    </>
+    </div>
   )
 };
 

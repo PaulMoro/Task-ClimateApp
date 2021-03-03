@@ -2,7 +2,7 @@ import React from 'react'
 
 const ToVisit = () => {
   return(
-    <>
+    <div className="toVisit">
       <div className="title">
         <div className="title_section">
           <h2 className="title_section-bold">Place to</h2>
@@ -41,7 +41,7 @@ const ToVisit = () => {
           <img src="" alt=""/>
         </div>
       </div>
-    </>
+    </div>
   )
 };
 
