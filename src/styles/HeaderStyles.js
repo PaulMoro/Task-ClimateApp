@@ -9,22 +9,35 @@ export default css.HeaderStyles`
   top: 103px;
   color: white;
 }
+/* Section cuviline */
 .weather_desing-top{
   width: 10px;
   height: 10px;
   background-color: white;
   border-bottom-left-radius: 900%;
-  z-index: 3;
-  position: fixed;
+  position: absolute;
   left: 1px;
 }
 .weather_desing-bottom{
   background-color: #5F64A3;
   width: 10px;
   height: 10px;
-  z-index: 2;
+}
+.weather_desing-top2{
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-top-left-radius: 900%;
+  position: absolute;
+  left: 1px;
+}
+.weather_desing-bottom2{
+  background-color: #7D68E9;
+  width: 10px;
+  height: 10px;
 }
 .weather_how{
+  position: absolute;
   width: 93px;
   height: 90px;
   display: flex;
@@ -35,7 +48,7 @@ export default css.HeaderStyles`
   border-radius: 25%;
   border-top-left-radius: 0%;
   border-bottom-left-radius: 15%;
-  z-index: 5;
+  z-index: 1;
 }
 .weather_how img {
   width: 45px;
@@ -49,15 +62,16 @@ export default css.HeaderStyles`
 }
 .weather_howMuch{
   width: 93px;
-  height: 75px;
-  margin-top: 0px;
+  height: 90px;
+  margin-top: 70px;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #7D68E9;
-  z-index: 2;
+  border-bottom-right-radius: 15%;
 }
 .weather_howMuch p {
+  margin-top: 10px;
   font-size: 30px;
   font-weight: bold;
 }
@@ -78,7 +92,7 @@ export default css.HeaderStyles`
   border-radius: 20px;
 }
 .city_location {
-  position: fixed;
+  position: absolute;
   left: 13%;
   top: 110px;
 }
@@ -100,5 +114,12 @@ export default css.HeaderStyles`
   padding-top: 45px;
   padding-left: 24px;
   object-fit: cover;
+}
+@media only screen and (max-width: 768px) {
+  .city_location {
+    position: absolute;
+    left: 50%;
+    top: 110px;
+  }
 }
 `

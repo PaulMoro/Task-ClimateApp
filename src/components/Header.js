@@ -23,6 +23,8 @@ const Header = () => {
           <p>31</p>
           <span>°C</span>
         </div>
+        <div className="weather_desing-top2"></div>
+        <div className="weather_desing-bottom2"></div>
       </div>
       <div className="city">
         <img className="city_img" src={bogota} alt="image about Bogota"/>

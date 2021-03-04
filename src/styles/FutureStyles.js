@@ -56,5 +56,12 @@ export default css.FutureStyles`
   color: white;
   background-color: #7E69E8;
 }
+@media only screen and (max-width: 768px) {
+  .future{
+    width: 100%;
+    height: 250px;
+    margin-bottom: 50px;
+  }
+}
 
 `

@@ -1,21 +1,24 @@
 import React from 'react'
 
+/* styles */
+import CitiesStyles from '../styles/CitiesStyles'
+
 const Cities = () => {
   return(
     <div className="cities">
       <div className="citiesContainer">
-        <div className="citiesContainer_img">
+        <div className="citiesContainer_data">
           <img src="" alt=""/>
-        </div>
-        <div className="citiesContainer_inf">
-          <div className="citiesContainer_inf-degrees">
-            <p>29</p>
-            <span>°C</span>
-          </div>
-          <span>|</span>
-          <div className="citiesContainer_inf-city">
-            <h3>Lyon</h3>
-            <p>Francia</p>
+          <div className="citiesContainer_inf">
+            <div className="citiesContainer_inf-degrees">
+              <p>29</p>
+              <span>°C</span>
+            </div>
+            <div className="citiesContainer_inf-line"></div>
+            <div className="citiesContainer_inf-city">
+              <h3>Lyon</h3>
+              <p>Francia</p>
+            </div>
           </div>
         </div>
         <div className="citiesContainer_weather">
@@ -25,18 +28,18 @@ const Cities = () => {
         </div>
       </div>
       <div className="citiesContainer">
-        <div className="citiesContainer_img">
+        <div className="citiesContainer_data">
           <img src="" alt=""/>
-        </div>
-        <div className="citiesContainer_inf">
-          <div className="citiesContainer_inf-degrees">
-            <p>29</p>
-            <span>°C</span>
-          </div>
-          <span>|</span>
-          <div className="citiesContainer_inf-city">
-            <h3>Paris</h3>
-            <p>Francia</p>
+          <div className="citiesContainer_inf">
+            <div className="citiesContainer_inf-degrees">
+              <p>29</p>
+              <span>°C</span>
+            </div>
+            <div className="citiesContainer_inf-line"></div>
+            <div className="citiesContainer_inf-city">
+              <h3>Paris</h3>
+              <p>Francia</p>
+            </div>
           </div>
         </div>
         <div className="citiesContainer_weather">
@@ -49,6 +52,10 @@ const Cities = () => {
         <button>Add Locations</button>
         <img src="" alt=""/>
       </div>
+      <style jsx ToVisitStyles>
+        {CitiesStyles}
+      </style>
+      
     </div>
   )
 };

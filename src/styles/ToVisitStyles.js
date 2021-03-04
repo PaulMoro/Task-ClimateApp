@@ -96,4 +96,11 @@ export default css.ToVisitStyles`
 .places_third-plus span {
   margin: 25%;
 }
+@media only screen and (max-width: 768px) {
+  .toVisit {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 50px;
+  }
+}
 `

@@ -27,9 +27,19 @@ const HomePage = () => {
           color: #D9D9D9;
         }
         .about{
-          margin: 0px 10% 60px 5%;
+          margin: 0px 5% 60px 5%;
           display: flex;
           justify-content: space-between;
+        }
+        @media only screen and (max-width: 768px) {
+          .about{
+            margin: 0px 5% 60px 5%;
+            display: block;
+          }
+          .future{
+            width: 100%;
+            height: 250px;
+          }
         }
 
       `}
