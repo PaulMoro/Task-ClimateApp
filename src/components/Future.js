@@ -52,7 +52,7 @@ const Future = () => {
           </div>
         </div>
       </div>
-      <style jsx HeaderStyles>
+      <style jsx FutureStyles>
         {FutureStyles}
       </style>
     </div>

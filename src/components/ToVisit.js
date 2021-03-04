@@ -1,12 +1,18 @@
 import React from 'react'
 
+/* Assets */
+import location from '../../assets/icons/20314.png'
+
+/* styles */
+import ToVisitStyles from '../styles/ToVisitStyles'
+
 const ToVisit = () => {
   return(
     <div className="toVisit">
       <div className="title">
         <div className="title_section">
           <h2 className="title_section-bold">Place to</h2>
-          <h2 className="title_section-light">Visit</h2>
+          <p className="title_section-light">Visit</p>
         </div>
         <div className="title_users">
           <h4 className="title_users-title">+ Top Reviews</h4>
@@ -20,27 +26,30 @@ const ToVisit = () => {
       </div>
       <div className="places">
         <div className="places_first">
-          <img src="" alt=""/>
           <div className="places_first-description">
-            <h3>arab Street Singapore</h3>
+            <img src={location} alt=""/>
+            <h3>Arab Street Singapore</h3>
           </div>
         </div>
         <div className="places_second">
-          <img src="" alt=""/>
           <div className="places_second-description">
-            <h3>arab Street Singapore</h3>
+            <img src={location} alt=""/>
+            <h3>Arab Street Singapore</h3>
           </div>
         </div>
         <div className="places_third">
-          <img src="" alt=""/>
           <div className="places_third-description">
-            <h3>arab Street Singapore</h3>
+            <img src={location} alt=""/>
+            <h3>Arab Street Singapore</h3>
+          </div>
+          <div className="places_third-plus">
+            <span>+</span>
           </div>
         </div>
-        <div className="place_plus">
-          <img src="" alt=""/>
-        </div>
       </div>
+      <style jsx ToVisitStyles>
+        {ToVisitStyles}
+      </style>
     </div>
   )
 };

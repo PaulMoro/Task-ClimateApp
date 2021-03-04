@@ -2,12 +2,12 @@ import css from "styled-jsx/css";
 
 export default css.FutureStyles`
 .future{
-  width: 175px;
+  width: 17%;
   height: 250px;
 }
 .title{
+  margin-bottom: 35px;
   display: flex;
-  margin-bottom: 35px
 }
 /* problems with the classNames, it's don't take the styles */
 .title h2 {

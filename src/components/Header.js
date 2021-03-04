@@ -1,4 +1,6 @@
 import React from 'react'
+
+/* Assets */
 import bogota from '../../assets/img/bogota.png'
 import location from '../../assets/icons/20314.png'
 import croquis from '../../assets/img/croquis-bogota.png'
