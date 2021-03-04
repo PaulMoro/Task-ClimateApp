@@ -6,6 +6,8 @@ import ToVisit from '../src/components/ToVisit'
 import Cities from '../src/components/Cities'
 
 const HomePage = () => {
+
+
   return (
     <>
       <div className="city">
