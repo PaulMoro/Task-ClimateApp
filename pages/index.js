@@ -4,14 +4,18 @@ import Header from '../src/components/Header'
 import Future from '../src/components/Future'
 import ToVisit from '../src/components/ToVisit'
 import Cities from '../src/components/Cities'
+/* Data */
+import getData from '../src/hook/getData'
 
 const HomePage = () => {
-
-
+/*   const data = getData();
+  console.log(data)
+ */
   return (
     <>
       <div className="city">
-        <Header />
+        <Header 
+        />
       </div>
       <div className="about">
         <Future />
