@@ -50,7 +50,7 @@ const Cities = () => {
     });
     useEffect(async () => {
       try {
-        var res = await request.get('https://api.openweathermap.org/data/2.5/weather?zip=01001,us&units=metric&appid=https://api.openweathermap.org/data/2.5/weather?zip=01001,us&units=metric&appid=a967ec6d970677bf478e5f73d840390c')
+        var res = await request.get('https://api.openweathermap.org/data/2.5/weather?zip=01001,us&units=metric&appid=https://api.openweathermap.org/data/2.5/weather?zip=01001,us&units=metric&appid=bb2f48b74892dd07194b9c119ce1ff43')
         var api = res.body;
       } catch (err) {
         console.error(err);
