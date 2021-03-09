@@ -32,9 +32,3 @@ yarn-error.log*
 ./.next/
 .next/
 .next
-
-# images
-
-.png
-.jpg
-.svg

@@ -50,7 +50,7 @@ const Future = () => {
     });
     useEffect(async () => {
       try {
-        var res = await request.get('http://api.openweathermap.org/data/2.5/weather?q=bogota&units=metric&appid=a967ec6d970677bf478e5f73d840390c')
+        var res = await request.get('https://api.openweathermap.org/data/2.5/weather?q=bogota&units=metric&appid=a967ec6d970677bf478e5f73d840390c')
         var api = res.body;
       } catch (err) {
         console.error(err);
