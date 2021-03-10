@@ -56,7 +56,7 @@ const Header = () => {
     });
     useEffect(async () => {
       try {
-        var res = await request.get('https://api.openweathermap.org/data/2.5/weather?q=bogota&units=metric&appid=https://api.openweathermap.org/data/2.5/weather?zip=01001,us&units=metric&appid=bb2f48b74892dd07194b9c119ce1ff43')
+        var res = await request.get('https://api.openweathermap.org/data/2.5/weather?q=bogota&units=metric&appid=bb2f48b74892dd07194b9c119ce1ff43')
         var api = res.body;
       } catch (err) {
         console.error(err);
